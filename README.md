@@ -3,6 +3,17 @@
 This repository contains code samples for my book on ["Neural Networks
 and Deep Learning"](http://neuralnetworksanddeeplearning.com).
 
+## Local Python 3 setup
+
+`src/mnist_loader.py` and `src/network.py` have been adapted for Python 3.
+Install their dependencies with `python -m pip install -r requirements.txt`.
+These two modules only require NumPy; the original dependency pins are saved
+in `requirements-legacy.txt` for reference, not for installation on Python 3.12.
+The other examples, including the Theano-based `network3.py`, have not been
+ported as part of this local update.
+
+## Original compatibility notes
+
 The code is written for Python 2.6 or 2.7. There is a version for 
 Python 3.8-3.10 [here](https://github.com/unexploredtest/neural-networks-and-deep-learning). 
 I will not be updating the current repository for Python 3 compatibility.

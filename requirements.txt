@@ -1,4 +1,2 @@
-numpy==1.13.3
-scikit-learn==0.19.0
-scipy==0.19.1
-Theano==0.7.0
+# Python 3 dependencies for src/mnist_loader.py and src/network.py.
+numpy>=1.26
